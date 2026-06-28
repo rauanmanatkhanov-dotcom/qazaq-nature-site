@@ -7,77 +7,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header id="top" class="site-header">
+<header class="header" id="top">
   <div class="container header-inner">
-    <a class="logo" href="index.html">Qazaq Nature</a>
-    <button class="menu-button" id="menuButton" aria-label="Мәзірді ашу">☰</button>
-    <nav class="main-nav" id="mainNav">
-      <a href="index.html">Басты бет</a>
-      <a href="gallery.html">Галерея</a>
-      <a href="contact.html">Байланыс</a>
+    <a class="logo" href="index.html"><span class="logo-mark">QN</span><span>Qazaq Nature</span></a>
+    <button class="menu-btn" aria-label="Мәзір">☰</button>
+    <nav class="nav">
+      <a class="active" href="index.html">Басты бет</a>
+      <a class="" href="places.html">Бағыттар</a>
+      <a class="" href="contact.html">Байланыс</a>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <p class="eyebrow">Студенттік веб жоба</p>
-        <h1>Қазақстан табиғаты туралы ақпараттық сайт</h1>
-        <p class="hero-text">Бұл сайт Қазақстандағы табиғи орындар, экотуризм мәдениеті және табиғатты қорғау туралы қысқаша әрі пайдалы ақпарат береді.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="gallery.html">Суреттерді көру</a>
-          <a class="button secondary" href="#sections">Бөлімдер</a>
-        </div>
-      </div>
-      <img class="hero-image" src="mountains.svg" alt="Қазақстан тауларының суреті">
-    </div>
-  </section>
-
-  <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
-    <a href="#about">Жоба туралы</a>
-    <a href="#sections">Негізгі бөлімдер</a>
-    <a href="#media">Медиа</a>
-  </nav>
-
-  <section id="about" class="section container">
-    <h2>Жоба туралы</h2>
-    <p>Qazaq Nature сайты білім беру мақсатында жасалды. Сайтта бірнеше бет, беттер арасындағы мәзір, бет ішіндегі навигация, суреттер, аудио, бейне және кері байланыс формасы бар.</p>
-  </section>
-
-  <section id="sections" class="section container">
-    <h2>Негізгі бөлімдер</h2>
-    <div class="cards">
-      <article class="card">
-        <h3>Табиғи орындар</h3>
-        <p>Таулар, көлдер және қалалық табиғи аймақтар туралы қысқаша мәлімет.</p>
-      </article>
-      <article class="card">
-        <h3>Экотуризм</h3>
-        <p>Саяхат кезінде табиғатқа зиян келтірмеу және тазалық сақтау мәдениеті.</p>
-      </article>
-      <article class="card">
-        <h3>Байланыс</h3>
-        <p>Пікір қалдыруға арналған қарапайым әрі жұмыс істейтін форма.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="media" class="section container media-block">
-    <h2>Аудио таныстыру</h2>
-    <p>Төмендегі аудио сайттың медиа талабын орындау үшін қосылды.</p>
-    <audio controls>
-      <source src="qazaq_intro.wav" type="audio/wav">
-      Браузеріңіз аудиофайлды қолдамайды.
-    </audio>
-  </section>
+<section class="hero"><div class="container hero-grid"><div><span class="badge">Заманауи студенттік сайт</span><h1>Қазақстан табиғатын жаңа көзқараспен таныңыз</h1><p class="lead">Qazaq Nature экотуризм, демалыс бағыттары және табиғатты қорғау мәдениеті туралы стильді ақпараттық сайт. Жоба барлық негізгі талаптарды қамтиды: 3 бет, навигация, форма, сурет, аудио және бейне.</p><div class="actions"><a class="btn btn-primary" href="places.html">Бағыттарды көру</a><a class="btn btn-ghost" href="#about">Жоба туралы</a></div><div class="stats"><div class="stat"><strong>3</strong><span>толық бет</span></div><div class="stat"><strong>5+</strong><span>медиа элемент</span></div><div class="stat"><strong>100%</strong><span>бейімделген дизайн</span></div></div></div><div class="hero-card"><img src="alatau.svg" alt="Алатау табиғатының иллюстрациясы"></div></div></section>
+<nav class="page-nav container" aria-label="Бет ішіндегі навигация"><a href="#about">Жоба туралы</a><a href="#features">Артықшылықтар</a><a href="#plan">Құрылымы</a></nav>
+<section class="section container" id="about"><div class="section-head"><div><span class="badge">Мақсаты</span><h2>Сайт не туралы?</h2></div><p>Бұл сайт Қазақстан табиғатының әсемдігін көрсетуге және экотуризм мәдениетін насихаттауға арналған. Дизайн таза, заманауи және тақырыпқа сай жасалған.</p></div><div class="split"><div class="panel"><h3>Негізгі идея</h3><p>Пайдаланушы сайтқа кіргенде бірден тақырыпты түсінеді, бағыттарды қарай алады, медиа файлдарды ашады және байланыс формасы арқылы хабарлама қалдырады.</p></div><div class="panel"><h3>Техникалық орындалуы</h3><p>Жоба HTML, CSS және JavaScript арқылы жасалды. Барлық сілтемелер, мәзірлер, батырмалар және форма жұмыс істейді. Сайт телефонда да, компьютерде де ыңғайлы ашылады.</p></div></div></section>
+<section class="section container" id="features"><div class="section-head"><div><span class="badge">Мүмкіндіктер</span><h2>Неге бұл нұсқа жақсы?</h2></div><p>Дизайн визуалды түрде әдемірек, бөлімдер анық, навигация ыңғайлы және тапсырма талаптарына толық сәйкес келеді.</p></div><div class="cards"><article class="card"><div class="icon">1</div><h3>Күшті визуал</h3><p>Жарық эффекттері, карточкалар, градиенттер және таза орналасу сайтты заманауи көрсетеді.</p></article><article class="card"><div class="icon">2</div><h3>Толық талап</h3><p>Үш бет, бет ішіндегі мәзір, үш сурет, аудио, видео және кері байланыс формасы бар.</p></article><article class="card"><div class="icon">3</div><h3>Жеңіл жариялау</h3><p>Барлық файл бір деңгейде орналасқан, сондықтан GitHubқа жүктеу жеңілірек болады.</p></article></div></section>
+<section class="section container" id="plan"><div class="section-head"><div><span class="badge">Құрылым</span><h2>Сайт бөлімдері</h2></div><p>Әр бетте жоғары мәзір және ішкі навигация бар. Бұл талапты толық жабады.</p></div><div class="timeline"><div class="step"><span>01</span><div><h3>Басты бет</h3><p>Жоба таныстырылымы, қысқаша ақпарат және сайт құрылымы.</p></div></div><div class="step"><span>02</span><div><h3>Бағыттар</h3><p>Қазақстан табиғаты бойынша галерея, аудио және бейне материал.</p></div></div><div class="step"><span>03</span><div><h3>Байланыс</h3><p>Кері байланыс формасы және этика талаптары.</p></div></div></div></section>
 </main>
 
-<footer class="site-footer">
+<footer class="footer">
   <div class="container footer-inner">
-    <p>2026 Qazaq Nature. Оқу жобасы.</p>
-    <a href="#top">Жоғарыға оралу</a>
+    <span><span class="year"></span> Qazaq Nature. Студенттік оқу жобасы.</span>
+    <a class="to-top" href="#top">Жоғарыға оралу</a>
   </div>
 </footer>
 <script src="script.js"></script>

@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-label="Көл көрінісі">
-  <defs>
-    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#bfeeff"/>
-      <stop offset="1" stop-color="#f2fff4"/>
-    </linearGradient>
-  </defs>
-  <rect width="900" height="560" fill="url(#sky)"/>
-  
-<circle cx="710" cy="125" r="55" fill="#ffcf70"/>
-<path d="M0 380 C140 320 260 340 380 300 C520 255 650 300 900 245 L900 430 L0 430 Z" fill="#5ea775"/>
-<ellipse cx="450" cy="425" rx="420" ry="92" fill="#76c7d9"/>
-<path d="M170 420 C260 390 330 390 420 420 C520 455 620 455 730 420" stroke="#ffffff" stroke-width="8" fill="none" opacity="0.75"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
 
-  <rect y="430" width="900" height="130" fill="#2d7955"/>
-  <text x="52" y="78" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#153c2a">Көл көрінісі</text>
-  <text x="52" y="118" font-family="Arial, sans-serif" font-size="20" fill="#315948">Таза табиғат пен тыныштық</text>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102a43"/><stop offset=".58" stop-color="#20756a"/><stop offset="1" stop-color="#f6c453"/></linearGradient>
+<linearGradient id="land" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0f5132"/><stop offset="1" stop-color="#4caf50"/></linearGradient>
+</defs>
+<rect width="1200" height="760" fill="url(#g)"/>
+<circle cx="930" cy="145" r="72" fill="#ffd37a"/>
+<path d="M0 410 C155 350 270 390 430 330 C610 260 760 330 1200 260 L1200 760 L0 760 Z" fill="url(#land)"/>
+<ellipse cx="600" cy="590" rx="560" ry="140" fill="#55c7d8"/>
+<ellipse cx="600" cy="596" rx="470" ry="92" fill="#7ee6e1" opacity=".58"/>
+<path d="M160 585 C300 545 430 650 560 590 C710 520 865 660 1040 580" stroke="#fff" stroke-width="9" fill="none" opacity=".65"/>
+<path d="M250 650 C390 625 470 690 620 650 C760 610 850 690 1000 635" stroke="#fff" stroke-width="6" fill="none" opacity=".38"/>
+
+<rect x="48" y="48" width="560" height="164" rx="30" fill="#ffffff" opacity=".13"/>
+<rect x="48" y="48" width="560" height="164" rx="30" fill="none" stroke="#ffffff" stroke-opacity=".35"/>
+<text x="82" y="112" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff">Көлсай көлдері</text>
+<text x="84" y="162" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#e9fff1">экотуризм және демалыс</text>
 </svg>

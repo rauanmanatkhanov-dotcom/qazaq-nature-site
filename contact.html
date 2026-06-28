@@ -7,68 +7,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header id="top" class="site-header">
+<header class="header" id="top">
   <div class="container header-inner">
-    <a class="logo" href="index.html">Qazaq Nature</a>
-    <button class="menu-button" id="menuButton" aria-label="Мәзірді ашу">☰</button>
-    <nav class="main-nav" id="mainNav">
-      <a href="index.html">Басты бет</a>
-      <a href="gallery.html">Галерея</a>
-      <a href="contact.html">Байланыс</a>
+    <a class="logo" href="index.html"><span class="logo-mark">QN</span><span>Qazaq Nature</span></a>
+    <button class="menu-btn" aria-label="Мәзір">☰</button>
+    <nav class="nav">
+      <a class="" href="index.html">Басты бет</a>
+      <a class="" href="places.html">Бағыттар</a>
+      <a class="active" href="contact.html">Байланыс</a>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="page-hero">
-    <div class="container">
-      <p class="eyebrow">Кері байланыс</p>
-      <h1>Бізге пікір қалдырыңыз</h1>
-      <p>Бұл бетте форма және сайт авторы туралы қысқаша ақпарат бар.</p>
-    </div>
-  </section>
-
-  <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
-    <a href="#form">Форма</a>
-    <a href="#info">Ақпарат</a>
-    <a href="#rules">Ережелер</a>
-  </nav>
-
-  <section id="form" class="section container">
-    <h2>Кері байланыс формасы</h2>
-    <form class="contact-form" id="contactForm">
-      <label>
-        Атыңыз
-        <input type="text" name="name" placeholder="Атыңызды жазыңыз" required>
-      </label>
-      <label>
-        Email
-        <input type="email" name="email" placeholder="example@mail.com" required>
-      </label>
-      <label>
-        Хабарлама
-        <textarea name="message" rows="5" placeholder="Пікіріңізді жазыңыз" required></textarea>
-      </label>
-      <button class="button primary" type="submit">Жіберу</button>
-      <p class="form-message" id="formMessage" role="status"></p>
-    </form>
-  </section>
-
-  <section id="info" class="section container">
-    <h2>Сайт туралы ақпарат</h2>
-    <p>Сайт HTML, CSS және JavaScript арқылы жасалды. Барлық мәзірлер мен батырмалар жұмыс істейді, ал медиа файлдар жергілікті папкаларға сақталған.</p>
-  </section>
-
-  <section id="rules" class="section container notice">
-    <h2>Этика және қауіпсіздік</h2>
-    <p>Сайтта Қазақстан Республикасының заңнамасына және әдеп нормаларына қайшы келетін материалдар қолданылмаған.</p>
-  </section>
+<section class="page-hero"><div class="container"><span class="badge">Кері байланыс</span><h1>Пікір қалдыру формасы</h1><p class="lead">Бұл бетте жұмыс істейтін форма, сайт туралы ақпарат және этика бөлімі бар.</p></div></section>
+<nav class="page-nav container" aria-label="Бет ішіндегі навигация"><a href="#form">Форма</a><a href="#info">Ақпарат</a><a href="#ethics">Этика</a></nav>
+<section class="section container" id="form"><div class="section-head"><div><span class="badge">Форма</span><h2>Хабарлама жіберу</h2></div><p>Форма JavaScript арқылы өңделеді және жіберілгеннен кейін пайдаланушыға хабарлама көрсетеді.</p></div><form class="form" id="contactForm"><label>Атыңыз<input type="text" name="name" placeholder="Атыңызды жазыңыз" required></label><label>Email<input type="email" name="email" placeholder="example@mail.com" required></label><label>Тақырып<select name="topic" required><option value="">Тақырып таңдаңыз</option><option>Сайт туралы пікір</option><option>Экотуризм бойынша ұсыныс</option><option>Жалпы сұрақ</option></select></label><label>Хабарлама<textarea name="message" rows="5" placeholder="Пікіріңізді жазыңыз" required></textarea></label><button class="btn btn-primary" type="submit">Жіберу</button><p class="form-message" id="formMessage" role="status"></p></form></section>
+<section class="section container" id="info"><div class="split"><div class="panel"><h2>Жоба ақпараты</h2><p>Сайт HTML, CSS және JavaScript арқылы жасалған. Жоба GitHub Pages арқылы жариялауға дайын. Негізгі файл index.html болғандықтан сайт бірден ашылады.</p></div><div class="panel"><h2>Қолданылған элементтер</h2><ul class="list"><li>Беттер арасындағы негізгі мәзір</li><li>Бет ішіндегі якорлық навигация</li><li>Сурет, аудио, бейне және форма</li><li>Мобильді экранға бейімделген дизайн</li></ul></div></div></section>
+<section class="section container" id="ethics"><div class="notice"><h2>Этика және заң талаптары</h2><p>Сайтта Қазақстан Республикасының заңнамасына және әдеп нормаларына қайшы келетін материалдар қолданылмаған. Жоба оқу мақсатында өз бетінше орындалған жұмыс ретінде дайындалды.</p></div></section>
 </main>
 
-<footer class="site-footer">
+<footer class="footer">
   <div class="container footer-inner">
-    <p>2026 Qazaq Nature. Оқу жобасы.</p>
-    <a href="#top">Жоғарыға оралу</a>
+    <span><span class="year"></span> Qazaq Nature. Студенттік оқу жобасы.</span>
+    <a class="to-top" href="#top">Жоғарыға оралу</a>
   </div>
 </footer>
 <script src="script.js"></script>

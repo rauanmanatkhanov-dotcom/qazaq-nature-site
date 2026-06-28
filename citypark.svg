@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09111f"/><stop offset=".56" stop-color="#234c63"/><stop offset="1" stop-color="#71c68b"/></linearGradient>
+</defs>
+<rect width="1200" height="760" fill="url(#g)"/>
+<circle cx="910" cy="135" r="72" fill="#ffd16b"/>
+<rect x="135" y="280" width="120" height="270" rx="16" fill="#2e7d56"/>
+<rect x="290" y="220" width="150" height="330" rx="18" fill="#145a6b"/>
+<rect x="485" y="310" width="125" height="240" rx="16" fill="#3fa36a"/>
+<rect x="660" y="250" width="170" height="300" rx="18" fill="#1f6f86"/>
+<rect x="885" y="325" width="150" height="225" rx="16" fill="#4caf70"/>
+<g fill="#eefaf2" opacity=".84">
+<rect x="168" y="320" width="22" height="22" rx="3"/><rect x="205" y="320" width="22" height="22" rx="3"/>
+<rect x="330" y="260" width="24" height="24" rx="3"/><rect x="370" y="260" width="24" height="24" rx="3"/>
+<rect x="705" y="292" width="24" height="24" rx="3"/><rect x="750" y="292" width="24" height="24" rx="3"/>
+</g>
+<path d="M0 555 C200 495 335 615 530 555 C720 500 870 620 1200 525 L1200 760 L0 760 Z" fill="#104c35"/>
+<path d="M0 625 C220 565 330 690 520 620 C720 545 850 690 1200 595 L1200 760 L0 760 Z" fill="#1e8a55" opacity=".85"/>
+
+<rect x="48" y="48" width="560" height="164" rx="30" fill="#ffffff" opacity=".13"/>
+<rect x="48" y="48" width="560" height="164" rx="30" fill="none" stroke="#ffffff" stroke-opacity=".35"/>
+<text x="82" y="112" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#ffffff">Қаладағы жасыл орта</text>
+<text x="84" y="162" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#e9fff1">саябақ және серуен</text>
+</svg>
