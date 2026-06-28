@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Assistant | AI чат</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">
+      <span class="logo-mark">AI</span>
+      <span>AI Assistant</span>
+    </a>
+    <button class="menu" aria-label="Мәзір">☰</button>
+    <nav class="nav">
+      <a class="" href="index.html">Басты бет</a>
+      <a class="active" href="chat.html">AI чат</a>
+      <a class="" href="features.html">Мүмкіндіктер</a>
+      <a class="" href="contact.html">Байланыс</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="kicker">Интерактивті бөлім</span>
+      <h1><span class="gradient">AI чат</span> демо көмекші</h1>
+      <p class="lead">Сұрақ жазыңыз немесе дайын батырманы таңдаңыз. Көмекші ChatGPT стилінде жауап береді.</p>
+    </div>
+  </section>
+
+  <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
+    <a href="#assistant">Чат</a>
+    <a href="#examples">Мысал prompt</a>
+    <a href="#info">Ескерту</a>
+  </nav>
+
+  <section class="section container" id="assistant">
+    <div class="chat-shell">
+      <aside class="sidebar" id="examples">
+        <h3>Дайын сұрақтар</h3>
+        <button class="prompt-card" data-prompt="Жасанды интеллект деген не?">Жасанды интеллект деген не?</button>
+        <button class="prompt-card" data-prompt="ChatGPT қалай жұмыс істейді?">ChatGPT қалай жұмыс істейді?</button>
+        <button class="prompt-card" data-prompt="AI оқуда қалай көмектеседі?">AI оқуда қалай көмектеседі?</button>
+        <button class="prompt-card" data-prompt="AI қандай қауіптері бар?">AI қандай қауіптері бар?</button>
+        <button class="prompt-card" data-prompt="Бұл сайт қандай талаптарды орындайды?">Бұл сайт қандай талаптарды орындайды?</button>
+      </aside>
+
+      <section class="chat-app">
+        <div class="chat-top">
+          <div class="assistant-name">
+            <span class="avatar">AI</span>
+            <div>
+              <strong>AI Assistant Demo</strong>
+              <div class="chat-status"><span class="dot"></span>online</div>
+            </div>
+          </div>
+          <span class="badge">JavaScript demo</span>
+        </div>
+
+        <div class="messages" id="messages">
+          <div class="message bot">
+            <div class="bubble">Сәлем! Мен AI көмекші демосымын. Маған AI, ChatGPT, оқу, қауіпсіздік немесе сайт туралы сұрақ қойыңыз.</div>
+            <div class="meta">AI көмекші</div>
+          </div>
+        </div>
+
+        <form class="chat-input" id="chatForm">
+          <div class="input-row">
+            <input id="chatInput" type="text" placeholder="Сұрақ жазыңыз..." autocomplete="off" required>
+            <button class="send-btn" type="submit">Жіберу</button>
+          </div>
+          <p class="small-note">Бұл оқу жобасына арналған demo чат. Толық ақылды ИИ үшін бөлек сервер және AI API қажет.</p>
+        </form>
+      </section>
+    </div>
+  </section>
+
+  <section class="section container" id="info">
+    <div class="notice">
+      <h2>Маңызды ескерту</h2>
+      <p>Бұл бет ChatGPT стиліндегі интерфейс ретінде жасалған. Ол APIсыз жұмыс істейтін демо ассистент, сондықтан нақты ChatGPT деңгейіндегі толық жасанды интеллект емес.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span><span class="year"></span> AI Assistant. Студенттік веб жоба.</span>
+    <a class="to-top" href="#top">Жоғарыға оралу</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

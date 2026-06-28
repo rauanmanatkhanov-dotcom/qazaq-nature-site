@@ -3,17 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Future | Байланыс</title>
+  <title>AI Assistant | Байланыс</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header" id="top">
   <div class="container header-inner">
-    <a class="logo" href="index.html"><span>AI</span><strong>AI Future</strong></a>
+    <a class="logo" href="index.html">
+      <span class="logo-mark">AI</span>
+      <span>AI Assistant</span>
+    </a>
     <button class="menu" aria-label="Мәзір">☰</button>
     <nav class="nav">
       <a class="" href="index.html">Басты бет</a>
-      <a class="" href="tools.html">AI құралдар</a>
+      <a class="" href="chat.html">AI чат</a>
+      <a class="" href="features.html">Мүмкіндіктер</a>
       <a class="active" href="contact.html">Байланыс</a>
     </nav>
   </div>
@@ -23,14 +27,14 @@
   <section class="page-hero">
     <div class="container">
       <span class="kicker">Кері байланыс</span>
-      <h1><span class="gradient-text">AI Future</span> байланыс формасы</h1>
-      <p class="lead">Бұл бетте жұмыс істейтін форма және AI қолдану қауіпсіздігі туралы қысқаша ақпарат бар.</p>
+      <h1><span class="gradient">Байланыс</span> және ұсыныс формасы</h1>
+      <p class="lead">Бұл бетте жұмыс істейтін форма және сайттың этика бөлімі бар.</p>
     </div>
   </section>
 
   <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
     <a href="#form">Форма</a>
-    <a href="#rules">Қауіпсіздік</a>
+    <a href="#rules">Ережелер</a>
     <a href="#ethics">Этика</a>
   </nav>
 
@@ -40,8 +44,9 @@
         <span class="kicker">Форма</span>
         <h2>Хабарлама жіберу</h2>
       </div>
-      <p>Форма жіберілгенде JavaScript арқылы растау хабарламасы шығады.</p>
+      <p>Форма JavaScript арқылы жұмыс істейді және жіберілгеннен кейін растау хабарламасын көрсетеді.</p>
     </div>
+
     <form class="form" id="contactForm">
       <label>
         Атыңыз
@@ -55,9 +60,9 @@
         Тақырып
         <select name="topic" required>
           <option value="">Тақырып таңдаңыз</option>
-          <option>AI туралы сұрақ</option>
-          <option>Сайт туралы пікір</option>
-          <option>Ұсыныс</option>
+          <option>AI чат туралы пікір</option>
+          <option>Сайт дизайны туралы ұсыныс</option>
+          <option>Жалпы сұрақ</option>
         </select>
       </label>
       <label>
@@ -75,27 +80,27 @@
         <span class="kicker">Қауіпсіздік</span>
         <h2>AI қолдану ережелері</h2>
       </div>
-      <p>AI қолданғанда ақпаратты тексеру, жеке деректерді қорғау және жауапкершілік маңызды.</p>
+      <p>Жасанды интеллектті қолданғанда ақпаратты тексеру және жеке деректерді қорғау маңызды.</p>
     </div>
-    <ul class="ai-list">
-      <li>AI берген ақпаратты маңызды жағдайда міндетті түрде тексеру керек.</li>
-      <li>Жеке құпия деректерді ашық сервистерге енгізбеу қажет.</li>
-      <li>AI нәтижесін өз ойыңмен толықтырып, жауапкершілікпен қолданған дұрыс.</li>
-      <li>Авторлық құқық пен әдеп нормаларын сақтау керек.</li>
+    <ul class="list">
+      <li>AI берген ақпаратты маңызды жағдайда міндетті түрде тексеріңіз.</li>
+      <li>Жеке құпия деректерді ашық чаттарға енгізбеңіз.</li>
+      <li>Авторлық құқық пен әдеп нормаларын сақтаңыз.</li>
+      <li>AI құралын жауапкершілікпен пайдаланыңыз.</li>
     </ul>
   </section>
 
   <section class="section container" id="ethics">
     <div class="notice">
       <h2>Этика және заң талаптары</h2>
-      <p>Сайтта Қазақстан Республикасының заңнамасына және әдеп нормаларына қайшы материалдар жоқ. Жоба оқу мақсатында жасалған және қауіпсіз тақырыпқа арналған.</p>
+      <p>Сайтта Қазақстан Республикасының заңнамасына және әдеп нормаларына қайшы келетін материалдар жоқ. Жоба оқу мақсатында дайындалған.</p>
     </div>
   </section>
 </main>
 
 <footer class="footer">
   <div class="container footer-inner">
-    <span><span class="year"></span> AI Future. Студенттік веб жоба.</span>
+    <span><span class="year"></span> AI Assistant. Студенттік веб жоба.</span>
     <a class="to-top" href="#top">Жоғарыға оралу</a>
   </div>
 </footer>
