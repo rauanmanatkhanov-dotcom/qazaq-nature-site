@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-label="Көл көрінісі">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#bfeeff"/>
+      <stop offset="1" stop-color="#f2fff4"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#sky)"/>
+  
+<circle cx="710" cy="125" r="55" fill="#ffcf70"/>
+<path d="M0 380 C140 320 260 340 380 300 C520 255 650 300 900 245 L900 430 L0 430 Z" fill="#5ea775"/>
+<ellipse cx="450" cy="425" rx="420" ry="92" fill="#76c7d9"/>
+<path d="M170 420 C260 390 330 390 420 420 C520 455 620 455 730 420" stroke="#ffffff" stroke-width="8" fill="none" opacity="0.75"/>
+
+  <rect y="430" width="900" height="130" fill="#2d7955"/>
+  <text x="52" y="78" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#153c2a">Көл көрінісі</text>
+  <text x="52" y="118" font-family="Arial, sans-serif" font-size="20" fill="#315948">Таза табиғат пен тыныштық</text>
+</svg>

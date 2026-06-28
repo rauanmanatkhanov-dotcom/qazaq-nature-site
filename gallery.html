@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qazaq Nature | Галерея</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top" class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">Qazaq Nature</a>
+    <button class="menu-button" id="menuButton" aria-label="Мәзірді ашу">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Басты бет</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="contact.html">Байланыс</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Галерея</p>
+      <h1>Табиғат көріністері</h1>
+      <p>Бұл бетте кемінде үш сурет және бір бейнефайл орналасқан.</p>
+    </div>
+  </section>
+
+  <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
+    <a href="#images">Суреттер</a>
+    <a href="#video">Бейне</a>
+    <a href="#tips">Кеңестер</a>
+  </nav>
+
+  <section id="images" class="section container">
+    <h2>Суреттер</h2>
+    <div class="gallery">
+      <figure>
+        <img src="mountains.svg" alt="Тау көрінісі">
+        <figcaption>Тау көрінісі</figcaption>
+      </figure>
+      <figure>
+        <img src="lake.svg" alt="Көл көрінісі">
+        <figcaption>Көл көрінісі</figcaption>
+      </figure>
+      <figure>
+        <img src="city.svg" alt="Қала саябағы">
+        <figcaption>Қала саябағы</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="video" class="section container media-block">
+    <h2>Бейнефайл</h2>
+    <p>Бұл қысқа бейнеролик сайттың бейнефайл талабын орындау үшін жасалды.</p>
+    <video controls width="100%" poster="assets/img/lake.svg">
+      <source src="qazaq_nature.mp4" type="video/mp4">
+      Браузеріңіз бейнефайлды қолдамайды.
+    </video>
+  </section>
+
+  <section id="tips" class="section container">
+    <h2>Экотуризм кеңестері</h2>
+    <ul class="clean-list">
+      <li>Қоқысты табиғатта қалдырмаңыз.</li>
+      <li>Өсімдіктерге және жануарларға зиян келтірмеңіз.</li>
+      <li>Белгіленген жолдармен ғана жүріңіз.</li>
+      <li>Саяхат кезінде қауіпсіздік ережелерін сақтаңыз.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>2026 Qazaq Nature. Оқу жобасы.</p>
+    <a href="#top">Жоғарыға оралу</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
