@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+
+<defs>
+  <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+    <stop offset="0" stop-color="#1d4ed8"/>
+    <stop offset="0.55" stop-color="#111827"/>
+    <stop offset="1" stop-color="#030712"/>
+  </radialGradient>
+  <linearGradient id="neon" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#a855f7"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="760" fill="url(#bg)"/>
+<g opacity="0.35" stroke="#60a5fa" stroke-width="2">
+  <path d="M140 160 C260 250 330 110 450 210 S710 330 850 170 S1030 240 1110 130" fill="none"/>
+  <path d="M90 560 C240 420 330 590 500 450 S790 330 940 480 S1110 390 1160 520" fill="none"/>
+</g>
+<g fill="#22d3ee">
+  <circle cx="180" cy="190" r="8"/><circle cx="360" cy="155" r="7"/><circle cx="520" cy="245" r="8"/>
+  <circle cx="725" cy="315" r="7"/><circle cx="910" cy="160" r="8"/><circle cx="1050" cy="235" r="7"/>
+  <circle cx="240" cy="520" r="8"/><circle cx="445" cy="455" r="7"/><circle cx="680" cy="385" r="8"/>
+  <circle cx="900" cy="480" r="7"/><circle cx="1080" cy="515" r="8"/>
+</g>
+<path d="M600 180 C455 180 365 280 365 395 C365 510 455 585 600 585 C745 585 835 510 835 395 C835 280 745 180 600 180 Z" fill="#0f172a" stroke="url(#neon)" stroke-width="10"/>
+<path d="M600 220 C520 220 472 276 472 342 C472 402 520 438 600 438 C680 438 728 402 728 342 C728 276 680 220 600 220 Z" fill="none" stroke="#22d3ee" stroke-width="8" opacity="0.95"/>
+<path d="M520 470 C560 505 640 505 680 470" fill="none" stroke="#a855f7" stroke-width="8" stroke-linecap="round"/>
+<circle cx="548" cy="335" r="16" fill="#22d3ee"/>
+<circle cx="652" cy="335" r="16" fill="#a855f7"/>
+
+<rect x="54" y="50" width="610" height="145" rx="30" fill="#ffffff" opacity="0.10"/>
+<rect x="54" y="50" width="610" height="145" rx="30" fill="none" stroke="#ffffff" stroke-opacity="0.28"/>
+<text x="88" y="112" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff">Neural Network</text>
+<text x="90" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#dffbff">ақылды алгоритмдер</text>
+</svg>

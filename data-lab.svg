@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#0f172a"/>
+    <stop offset="0.55" stop-color="#064e3b"/>
+    <stop offset="1" stop-color="#312e81"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0" x2="1">
+    <stop offset="0" stop-color="#22c55e"/>
+    <stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="760" fill="url(#bg)"/>
+<g opacity="0.28" stroke="#a7f3d0" stroke-width="2">
+  <path d="M90 145 H1110"/><path d="M90 265 H1110"/><path d="M90 385 H1110"/><path d="M90 505 H1110"/>
+  <path d="M180 80 V620"/><path d="M360 80 V620"/><path d="M540 80 V620"/><path d="M720 80 V620"/><path d="M900 80 V620"/><path d="M1080 80 V620"/>
+</g>
+<rect x="165" y="165" width="870" height="430" rx="42" fill="#020617" stroke="#67e8f9" stroke-width="4"/>
+<rect x="210" y="215" width="250" height="110" rx="28" fill="url(#card)" opacity="0.92"/>
+<rect x="485" y="215" width="250" height="110" rx="28" fill="#312e81" stroke="#a855f7" stroke-width="4"/>
+<rect x="760" y="215" width="230" height="110" rx="28" fill="#0f766e" stroke="#5eead4" stroke-width="4"/>
+<rect x="210" y="370" width="780" height="54" rx="20" fill="#111827"/>
+<rect x="210" y="455" width="620" height="54" rx="20" fill="#111827"/>
+<rect x="210" y="540" width="700" height="54" rx="20" fill="#111827"/>
+<circle cx="250" cy="397" r="12" fill="#22d3ee"/>
+<circle cx="250" cy="482" r="12" fill="#a855f7"/>
+<circle cx="250" cy="567" r="12" fill="#22c55e"/>
+<text x="270" y="282" font-family="Arial" font-size="38" font-weight="800" fill="#03121b">DATA</text>
+<text x="535" y="282" font-family="Arial" font-size="38" font-weight="800" fill="#ffffff">MODEL</text>
+<text x="800" y="282" font-family="Arial" font-size="38" font-weight="800" fill="#ffffff">RESULT</text>
+
+<rect x="54" y="50" width="610" height="145" rx="30" fill="#ffffff" opacity="0.10"/>
+<rect x="54" y="50" width="610" height="145" rx="30" fill="none" stroke="#ffffff" stroke-opacity="0.28"/>
+<text x="88" y="112" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff">Data Lab</text>
+<text x="90" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#dffbff">дерек, модель, нәтиже</text>
+</svg>

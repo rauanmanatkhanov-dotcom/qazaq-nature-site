@@ -3,33 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Qazaq Nature | Байланыс</title>
+  <title>AI Future | Байланыс</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header" id="top">
   <div class="container header-inner">
-    <a class="logo" href="index.html"><span class="logo-mark">QN</span><span>Qazaq Nature</span></a>
-    <button class="menu-btn" aria-label="Мәзір">☰</button>
+    <a class="logo" href="index.html"><span>AI</span><strong>AI Future</strong></a>
+    <button class="menu" aria-label="Мәзір">☰</button>
     <nav class="nav">
       <a class="" href="index.html">Басты бет</a>
-      <a class="" href="places.html">Бағыттар</a>
+      <a class="" href="tools.html">AI құралдар</a>
       <a class="active" href="contact.html">Байланыс</a>
     </nav>
   </div>
 </header>
 
 <main>
-<section class="page-hero"><div class="container"><span class="badge">Кері байланыс</span><h1>Пікір қалдыру формасы</h1><p class="lead">Бұл бетте жұмыс істейтін форма, сайт туралы ақпарат және этика бөлімі бар.</p></div></section>
-<nav class="page-nav container" aria-label="Бет ішіндегі навигация"><a href="#form">Форма</a><a href="#info">Ақпарат</a><a href="#ethics">Этика</a></nav>
-<section class="section container" id="form"><div class="section-head"><div><span class="badge">Форма</span><h2>Хабарлама жіберу</h2></div><p>Форма JavaScript арқылы өңделеді және жіберілгеннен кейін пайдаланушыға хабарлама көрсетеді.</p></div><form class="form" id="contactForm"><label>Атыңыз<input type="text" name="name" placeholder="Атыңызды жазыңыз" required></label><label>Email<input type="email" name="email" placeholder="example@mail.com" required></label><label>Тақырып<select name="topic" required><option value="">Тақырып таңдаңыз</option><option>Сайт туралы пікір</option><option>Экотуризм бойынша ұсыныс</option><option>Жалпы сұрақ</option></select></label><label>Хабарлама<textarea name="message" rows="5" placeholder="Пікіріңізді жазыңыз" required></textarea></label><button class="btn btn-primary" type="submit">Жіберу</button><p class="form-message" id="formMessage" role="status"></p></form></section>
-<section class="section container" id="info"><div class="split"><div class="panel"><h2>Жоба ақпараты</h2><p>Сайт HTML, CSS және JavaScript арқылы жасалған. Жоба GitHub Pages арқылы жариялауға дайын. Негізгі файл index.html болғандықтан сайт бірден ашылады.</p></div><div class="panel"><h2>Қолданылған элементтер</h2><ul class="list"><li>Беттер арасындағы негізгі мәзір</li><li>Бет ішіндегі якорлық навигация</li><li>Сурет, аудио, бейне және форма</li><li>Мобильді экранға бейімделген дизайн</li></ul></div></div></section>
-<section class="section container" id="ethics"><div class="notice"><h2>Этика және заң талаптары</h2><p>Сайтта Қазақстан Республикасының заңнамасына және әдеп нормаларына қайшы келетін материалдар қолданылмаған. Жоба оқу мақсатында өз бетінше орындалған жұмыс ретінде дайындалды.</p></div></section>
+  <section class="page-hero">
+    <div class="container">
+      <span class="kicker">Кері байланыс</span>
+      <h1><span class="gradient-text">AI Future</span> байланыс формасы</h1>
+      <p class="lead">Бұл бетте жұмыс істейтін форма және AI қолдану қауіпсіздігі туралы қысқаша ақпарат бар.</p>
+    </div>
+  </section>
+
+  <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
+    <a href="#form">Форма</a>
+    <a href="#rules">Қауіпсіздік</a>
+    <a href="#ethics">Этика</a>
+  </nav>
+
+  <section class="section container" id="form">
+    <div class="section-head">
+      <div>
+        <span class="kicker">Форма</span>
+        <h2>Хабарлама жіберу</h2>
+      </div>
+      <p>Форма жіберілгенде JavaScript арқылы растау хабарламасы шығады.</p>
+    </div>
+    <form class="form" id="contactForm">
+      <label>
+        Атыңыз
+        <input type="text" name="name" placeholder="Атыңызды жазыңыз" required>
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" placeholder="example@mail.com" required>
+      </label>
+      <label>
+        Тақырып
+        <select name="topic" required>
+          <option value="">Тақырып таңдаңыз</option>
+          <option>AI туралы сұрақ</option>
+          <option>Сайт туралы пікір</option>
+          <option>Ұсыныс</option>
+        </select>
+      </label>
+      <label>
+        Хабарлама
+        <textarea name="message" rows="5" placeholder="Хабарламаңызды жазыңыз" required></textarea>
+      </label>
+      <button class="btn btn-primary" type="submit">Жіберу</button>
+      <p class="form-message" id="formMessage" role="status"></p>
+    </form>
+  </section>
+
+  <section class="section container" id="rules">
+    <div class="section-head">
+      <div>
+        <span class="kicker">Қауіпсіздік</span>
+        <h2>AI қолдану ережелері</h2>
+      </div>
+      <p>AI қолданғанда ақпаратты тексеру, жеке деректерді қорғау және жауапкершілік маңызды.</p>
+    </div>
+    <ul class="ai-list">
+      <li>AI берген ақпаратты маңызды жағдайда міндетті түрде тексеру керек.</li>
+      <li>Жеке құпия деректерді ашық сервистерге енгізбеу қажет.</li>
+      <li>AI нәтижесін өз ойыңмен толықтырып, жауапкершілікпен қолданған дұрыс.</li>
+      <li>Авторлық құқық пен әдеп нормаларын сақтау керек.</li>
+    </ul>
+  </section>
+
+  <section class="section container" id="ethics">
+    <div class="notice">
+      <h2>Этика және заң талаптары</h2>
+      <p>Сайтта Қазақстан Республикасының заңнамасына және әдеп нормаларына қайшы материалдар жоқ. Жоба оқу мақсатында жасалған және қауіпсіз тақырыпқа арналған.</p>
+    </div>
+  </section>
 </main>
 
 <footer class="footer">
   <div class="container footer-inner">
-    <span><span class="year"></span> Qazaq Nature. Студенттік оқу жобасы.</span>
+    <span><span class="year"></span> AI Future. Студенттік веб жоба.</span>
     <a class="to-top" href="#top">Жоғарыға оралу</a>
   </div>
 </footer>
