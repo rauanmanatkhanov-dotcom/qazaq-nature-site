@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+    <stop offset="0" stop-color="#c026d3"/>
+    <stop offset=".55" stop-color="#581c87"/>
+    <stop offset="1" stop-color="#020617"/>
+  </radialGradient>
+  <linearGradient id="stroke" x1="0" x2="1">
+    <stop offset="0" stop-color="#f0abfc"/>
+    <stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="760" fill="url(#bg)"/>
+<g opacity=".34" stroke="#f0abfc" stroke-width="3">
+  <path d="M125 160 C260 90 360 270 500 185 S760 105 915 230 S1060 160 1135 110" fill="none"/>
+  <path d="M95 610 C280 430 395 680 570 520 S785 405 955 560 S1095 520 1160 430" fill="none"/>
+</g>
+<rect x="245" y="135" width="710" height="500" rx="58" fill="#0f172a" stroke="url(#stroke)" stroke-width="6"/>
+<circle cx="600" cy="270" r="110" fill="#111827" stroke="#f0abfc" stroke-width="8"/>
+<path d="M552 260 C552 228 578 205 610 205 C652 205 680 238 680 280 C680 330 640 358 595 358 C552 358 520 328 520 285" fill="none" stroke="#22d3ee" stroke-width="11" stroke-linecap="round"/>
+<circle cx="555" cy="268" r="14" fill="#f0abfc"/>
+<circle cx="645" cy="268" r="14" fill="#22d3ee"/>
+<rect x="340" y="430" width="520" height="92" rx="30" fill="#1e293b"/>
+<text x="390" y="486" font-family="Arial" font-size="34" font-weight="900" fill="#ffffff">AI Product Match</text>
+<rect x="430" y="548" width="340" height="44" rx="22" fill="#ec4899"/>
+<text x="488" y="578" font-family="Arial" font-size="22" font-weight="900" fill="#ffffff">тауарды таңдауға көмек</text>
+<g fill="#f0abfc">
+  <circle cx="185" cy="190" r="10"/><circle cx="1010" cy="170" r="10"/><circle cx="180" cy="615" r="10"/><circle cx="1040" cy="600" r="10"/>
+</g>
+</svg>

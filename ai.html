@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WB Smart Market | AI Match</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><span class="logo-mark">WB</span><span>WB Smart Market</span></a>
+    <button class="menu" aria-label="Мәзір">☰</button>
+    <nav class="nav">
+      <a class="" href="index.html">Басты бет</a>
+      <a class="" href="catalog.html">Каталог</a>
+      <a class="active" href="ai.html">AI Match</a>
+      <a class="" href="seller.html">Сатушы</a>
+      <a class="" href="contact.html">Байланыс</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="kicker">AI Product Match</span>
+      <h1><span class="gradient">AI тауар</span> сәйкестендіру</h1>
+      <p class="lead">Gemini сияқты кеңес беретін демо жүйе. Мақсат, бюджет және қолданушы түрін таңдаңыз, сайт ең сәйкес тауарларды ұсынады.</p>
+    </div>
+  </section>
+
+  <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
+    <a href="#ai">AI таңдау</a>
+    <a href="#how">Қалай жұмыс істейді</a>
+    <a href="#examples">Мысал</a>
+  </nav>
+
+  <section class="section container" id="ai">
+    <div class="ai-layout">
+      <div class="ai-box">
+        <h2>Параметр таңдаңыз</h2>
+        <div class="ai-form">
+          <label>Мақсат
+            <select id="purpose">
+              <option value="">Жалпы таңдау</option>
+              <option value="gift">Сыйлыққа</option>
+              <option value="sport">Спортқа</option>
+              <option value="home">Үйге</option>
+            </select>
+          </label>
+          <label>Бюджет, ₸
+            <input id="budget" type="number" placeholder="Мысалы 50000">
+          </label>
+          <label>Кім үшін
+            <select id="person">
+              <option value="">Барлығы</option>
+              <option value="girl">Қыздарға</option>
+              <option value="child">Балаларға</option>
+              <option value="adult">Ересек адамға</option>
+            </select>
+          </label>
+          <label>Приоритет
+            <select id="priority">
+              <option value="popular">Танымал</option>
+              <option value="cheap">Бағасы тиімді</option>
+              <option value="rating">Рейтингі жоғары</option>
+            </select>
+          </label>
+          <button class="btn btn-primary" id="aiBtn" type="button">AI ұсыныс алу</button>
+        </div>
+      </div>
+
+      <div class="ai-box">
+        <h2>AI нәтижесі</h2>
+        <div class="result" id="aiResult">
+          <h3>Әзірге нәтиже жоқ</h3>
+          <p>Сол жақтағы параметрлерді толтырып, AI ұсыныс алу батырмасын басыңыз.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="how">
+    <div class="section-head">
+      <div><span class="kicker">Логика</span><h2>AI Match қалай жұмыс істейді?</h2></div>
+      <p>Бұл толық нейрондық модель емес, бірақ оқу жобасына сай smart recommendation логикасы бар.</p>
+    </div>
+    <ul class="list">
+      <li>Пайдаланушы мақсат, бюджет, адам түрі және приоритет таңдайды.</li>
+      <li>JavaScript тауар базасын қарап, сәйкес келетін позицияларды табады.</li>
+      <li>Әр тауарға сәйкестік пайызы есептеледі.</li>
+      <li>Нәтижеде ең жақсы 3 тауар және түсіндірме шығады.</li>
+    </ul>
+  </section>
+
+  <section class="section container" id="examples">
+    <div class="notice"><h2>Мысал</h2><p>Бюджетке 50000 енгізіп, мақсатты сыйлыққа деп таңдаңыз. AI құлаққап, фитнес браслет немесе үйге пайдалы тауар ұсынуы мүмкін.</p></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span><span class="year"></span> WB Smart Market. Оқу жобасы. Ресми Wildberries сайты емес.</span>
+    <a class="to-top" href="#top">Жоғарыға оралу</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

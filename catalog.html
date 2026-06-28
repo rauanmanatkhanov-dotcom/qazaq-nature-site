@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WB Smart Market | Каталог</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><span class="logo-mark">WB</span><span>WB Smart Market</span></a>
+    <button class="menu" aria-label="Мәзір">☰</button>
+    <nav class="nav">
+      <a class="" href="index.html">Басты бет</a>
+      <a class="active" href="catalog.html">Каталог</a>
+      <a class="" href="ai.html">AI Match</a>
+      <a class="" href="seller.html">Сатушы</a>
+      <a class="" href="contact.html">Байланыс</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="kicker">Каталог</span>
+      <h1><span class="gradient">Тауарлар</span> іздеу және себет</h1>
+      <p class="lead">Бұл бетте тауар іздеу, категория бойынша фильтр, сорттау, себетке қосу және AI кеңеске жіберу функциялары бар.</p>
+    </div>
+  </section>
+
+  <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
+    <a href="#catalog">Каталог</a>
+    <a href="#cart">Себет</a>
+    <a href="#tips">Кеңес</a>
+  </nav>
+
+  <section class="section container" id="catalog">
+    <div class="section-head">
+      <div><span class="kicker">Smart catalog</span><h2>Интерактивті каталог</h2></div>
+      <p>Іздеу өрісіне смартфон, сыйлық, спорт, үй, балалар сияқты сөздерді жазып көріңіз.</p>
+    </div>
+
+    <div class="toolbar">
+      <input id="searchInput" type="text" placeholder="Тауар іздеу...">
+      <select id="categoryFilter">
+        <option value="all">Барлық категория</option>
+        <option value="electronics">Электроника</option>
+        <option value="fashion">Сән</option>
+        <option value="home">Үй</option>
+        <option value="kids">Балалар</option>
+      </select>
+      <select id="sortFilter">
+        <option value="popular">Танымал</option>
+        <option value="cheap">Арзаннан қымбатқа</option>
+        <option value="expensive">Қымбаттан арзанға</option>
+        <option value="rating">Рейтинг бойынша</option>
+      </select>
+    </div>
+
+    <div class="catalog-grid" id="catalogGrid"></div>
+  </section>
+
+  <section class="section container" id="tips">
+    <div class="notice"><h2>AI кеңес</h2><p>Әр тауар карточкасындағы AI кеңес батырмасын бассаңыз, сайт AI Match бетіне апарады.</p></div>
+  </section>
+
+  <aside class="cart-panel hidden" id="cartPanel">
+    <h3>Себет <span id="cartCount">0</span></h3>
+    <div class="cart-list" id="cartList"></div>
+    <p><b>Жалпы:</b> <span id="cartTotal">0 ₸</span></p>
+    <button class="small-btn buy" onclick="clearCart()">Себетті тазалау</button>
+  </aside>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span><span class="year"></span> WB Smart Market. Оқу жобасы. Ресми Wildberries сайты емес.</span>
+    <a class="to-top" href="#top">Жоғарыға оралу</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

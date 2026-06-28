@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WB Smart Market | Сатушы панелі</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="top">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><span class="logo-mark">WB</span><span>WB Smart Market</span></a>
+    <button class="menu" aria-label="Мәзір">☰</button>
+    <nav class="nav">
+      <a class="" href="index.html">Басты бет</a>
+      <a class="" href="catalog.html">Каталог</a>
+      <a class="" href="ai.html">AI Match</a>
+      <a class="active" href="seller.html">Сатушы</a>
+      <a class="" href="contact.html">Байланыс</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="kicker">Seller tools</span>
+      <h1><span class="gradient">Сатушы</span> панелі және калькуляторлар</h1>
+      <p class="lead">Бұл бетте сатушыға арналған dashboard, баға калькуляторы, логистика есептеу және SEO атау генераторы бар.</p>
+    </div>
+  </section>
+
+  <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
+    <a href="#dashboard">Dashboard</a>
+    <a href="#price">Баға</a>
+    <a href="#logistics">Логистика</a>
+    <a href="#seo">SEO атау</a>
+  </nav>
+
+  <section class="section container" id="dashboard">
+    <div class="section-head">
+      <div><span class="kicker">Аналитика</span><h2>Demo dashboard</h2></div>
+      <p>Сатушы панелі тапсырыс, табыс және рейтингті визуалды көрсетеді.</p>
+    </div>
+    <div class="dashboard-grid">
+      <div class="card kpi"><span class="tag">Заказ</span><strong>128</strong><p>Соңғы 30 күн</p></div>
+      <div class="card kpi"><span class="tag">Табыс</span><strong>2.4M ₸</strong><p>Demo көрсеткіш</p></div>
+      <div class="card kpi"><span class="tag">Рейтинг</span><strong>4.8</strong><p>Орташа баға</p></div>
+    </div>
+    <div class="chart" style="margin-top:18px">
+      <div class="bar" style="height:35%"></div>
+      <div class="bar" style="height:55%"></div>
+      <div class="bar" style="height:48%"></div>
+      <div class="bar" style="height:76%"></div>
+      <div class="bar" style="height:65%"></div>
+      <div class="bar" style="height:92%"></div>
+      <div class="bar" style="height:80%"></div>
+    </div>
+  </section>
+
+  <section class="section container" id="price">
+    <div class="section-head">
+      <div><span class="kicker">Калькулятор</span><h2>Баға және пайда есептеу</h2></div>
+      <p>Себестоимость, наценка, комиссия және логистика бойынша шамамен пайда есептеледі.</p>
+    </div>
+    <div class="calcs">
+      <div class="calc-box">
+        <h3>Баға калькуляторы</h3>
+        <div class="calc-form">
+          <input id="cost" type="number" value="10000" placeholder="Себестоимость">
+          <input id="margin" type="number" value="50" placeholder="Наценка %">
+          <input id="commission" type="number" value="15" placeholder="Комиссия %">
+          <input id="logistics" type="number" value="1000" placeholder="Логистика ₸">
+        </div>
+      </div>
+      <div class="calc-box">
+        <h3>Нәтиже</h3>
+        <div class="calc-result" id="priceResult"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="logistics">
+    <div class="section-head">
+      <div><span class="kicker">Логистика</span><h2>Габарит бойынша есептеу</h2></div>
+      <p>Длина, ширина, высота бойынша көлем және логистика құны есептеледі.</p>
+    </div>
+    <div class="calcs">
+      <div class="calc-box">
+        <h3>Габариттер, см</h3>
+        <div class="calc-form">
+          <input id="length" type="number" value="30" placeholder="Длина">
+          <input id="width" type="number" value="20" placeholder="Ширина">
+          <input id="height" type="number" value="10" placeholder="Высота">
+          <select id="warehouse">
+            <option value="1">Коэффициент 1.0</option>
+            <option value="1.5">Коэффициент 1.5</option>
+            <option value="2">Коэффициент 2.0</option>
+          </select>
+        </div>
+      </div>
+      <div class="calc-box">
+        <h3>Логистика нәтижесі</h3>
+        <div class="calc-result" id="logisticResult"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="seo">
+    <div class="section-head">
+      <div><span class="kicker">SEO</span><h2>Наименование генераторы</h2></div>
+      <p>WB карточкасына ұқсас қысқа атау шығарады және артық белгілерді алып тастайды.</p>
+    </div>
+    <div class="calcs">
+      <div class="calc-box">
+        <h3>Деректер</h3>
+        <div class="calc-form">
+          <input id="seoProduct" type="text" value="Смартфон" placeholder="Тауар атауы">
+          <input id="seoModel" type="text" value="X Pro 256GB" placeholder="Модель">
+          <input id="seoFeature" type="text" value="AMOLED NFC 5G" placeholder="Негізгі ерекшелік">
+        </div>
+      </div>
+      <div class="calc-box">
+        <h3>Дайын атау</h3>
+        <div class="calc-result" id="seoResult"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span><span class="year"></span> WB Smart Market. Оқу жобасы. Ресми Wildberries сайты емес.</span>
+    <a class="to-top" href="#top">Жоғарыға оралу</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

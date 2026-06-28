@@ -3,21 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Assistant | Байланыс</title>
+  <title>WB Smart Market | Байланыс</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header" id="top">
   <div class="container header-inner">
-    <a class="logo" href="index.html">
-      <span class="logo-mark">AI</span>
-      <span>AI Assistant</span>
-    </a>
+    <a class="logo" href="index.html"><span class="logo-mark">WB</span><span>WB Smart Market</span></a>
     <button class="menu" aria-label="Мәзір">☰</button>
     <nav class="nav">
       <a class="" href="index.html">Басты бет</a>
-      <a class="" href="chat.html">AI чат</a>
-      <a class="" href="features.html">Мүмкіндіктер</a>
+      <a class="" href="catalog.html">Каталог</a>
+      <a class="" href="ai.html">AI Match</a>
+      <a class="" href="seller.html">Сатушы</a>
       <a class="active" href="contact.html">Байланыс</a>
     </nav>
   </div>
@@ -27,46 +25,38 @@
   <section class="page-hero">
     <div class="container">
       <span class="kicker">Кері байланыс</span>
-      <h1><span class="gradient">Байланыс</span> және ұсыныс формасы</h1>
-      <p class="lead">Бұл бетте жұмыс істейтін форма және сайттың этика бөлімі бар.</p>
+      <h1><span class="gradient">Форма</span> және жоба ақпараты</h1>
+      <p class="lead">Бұл бетте жұмыс істейтін форма және этика бөлімі бар.</p>
     </div>
   </section>
 
   <nav class="page-nav container" aria-label="Бет ішіндегі навигация">
     <a href="#form">Форма</a>
     <a href="#rules">Ережелер</a>
-    <a href="#ethics">Этика</a>
+    <a href="#info">Ақпарат</a>
   </nav>
 
   <section class="section container" id="form">
     <div class="section-head">
-      <div>
-        <span class="kicker">Форма</span>
-        <h2>Хабарлама жіберу</h2>
-      </div>
+      <div><span class="kicker">Contact</span><h2>Хабарлама жіберу</h2></div>
       <p>Форма JavaScript арқылы жұмыс істейді және жіберілгеннен кейін растау хабарламасын көрсетеді.</p>
     </div>
-
     <form class="form" id="contactForm">
-      <label>
-        Атыңыз
+      <label>Атыңыз
         <input type="text" name="name" placeholder="Атыңызды жазыңыз" required>
       </label>
-      <label>
-        Email
+      <label>Email
         <input type="email" name="email" placeholder="example@mail.com" required>
       </label>
-      <label>
-        Тақырып
+      <label>Тақырып
         <select name="topic" required>
           <option value="">Тақырып таңдаңыз</option>
-          <option>AI чат туралы пікір</option>
-          <option>Сайт дизайны туралы ұсыныс</option>
-          <option>Жалпы сұрақ</option>
+          <option>Сайт дизайны туралы</option>
+          <option>AI Match туралы</option>
+          <option>Сатушы құралдары туралы</option>
         </select>
       </label>
-      <label>
-        Хабарлама
+      <label>Хабарлама
         <textarea name="message" rows="5" placeholder="Хабарламаңызды жазыңыз" required></textarea>
       </label>
       <button class="btn btn-primary" type="submit">Жіберу</button>
@@ -76,31 +66,28 @@
 
   <section class="section container" id="rules">
     <div class="section-head">
-      <div>
-        <span class="kicker">Қауіпсіздік</span>
-        <h2>AI қолдану ережелері</h2>
-      </div>
-      <p>Жасанды интеллектті қолданғанда ақпаратты тексеру және жеке деректерді қорғау маңызды.</p>
+      <div><span class="kicker">Ережелер</span><h2>Сайт қауіпсіздігі</h2></div>
+      <p>Жоба заң мен әдеп нормаларына сай дайындалды.</p>
     </div>
     <ul class="list">
-      <li>AI берген ақпаратты маңызды жағдайда міндетті түрде тексеріңіз.</li>
-      <li>Жеке құпия деректерді ашық чаттарға енгізбеңіз.</li>
-      <li>Авторлық құқық пен әдеп нормаларын сақтаңыз.</li>
-      <li>AI құралын жауапкершілікпен пайдаланыңыз.</li>
+      <li>Сайт ресми Wildberries сервисі емес.</li>
+      <li>Тауарлар, бағалар және көрсеткіштер demo ретінде берілген.</li>
+      <li>Жеке деректер нақты серверге жіберілмейді.</li>
+      <li>Сайт оқу тапсырмасы үшін дайындалған.</li>
     </ul>
   </section>
 
-  <section class="section container" id="ethics">
+  <section class="section container" id="info">
     <div class="notice">
-      <h2>Этика және заң талаптары</h2>
-      <p>Сайтта Қазақстан Республикасының заңнамасына және әдеп нормаларына қайшы келетін материалдар жоқ. Жоба оқу мақсатында дайындалған.</p>
+      <h2>Оқу жобасы туралы</h2>
+      <p>Сайт HTML, CSS және JavaScript арқылы жасалған. GitHub Pages арқылы жариялауға дайын. Талап бойынша 3 беттен көп, навигация, ішкі мәзір, форма, сурет, аудио, видео және жұмыс істейтін интерфейс элементтері бар.</p>
     </div>
   </section>
 </main>
 
 <footer class="footer">
   <div class="container footer-inner">
-    <span><span class="year"></span> AI Assistant. Студенттік веб жоба.</span>
+    <span><span class="year"></span> WB Smart Market. Оқу жобасы. Ресми Wildberries сайты емес.</span>
     <a class="to-top" href="#top">Жоғарыға оралу</a>
   </div>
 </footer>
